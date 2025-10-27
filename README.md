@@ -17,11 +17,9 @@ Welcome to Deep Learning Labs of RSNA or Radiologic Society of North America 202
 | Dec 3, 2025  | 8:00 AM  | An Introduction to Multi‑agent Artificial Intelligence Systems in Radiology                      | Pouria Rouzrokh MD MPH MHPE | Moein Shariatnia MD; Melina Hosseiny MD               |
 | Dec 3, 2025  | 9:30 AM  | Transforming Radiology with LLMs: Fine‑Tuning and Explainable AI for Next‑Gen Clinical Solutions | Paul Yi MD                  | Briana Malik BS; Dharmam Savani MS                    |
 
-Workshop materials are available.
-
 ---
 
-## Deep Learning Labs' Educational Materials
+## Educational Materials
 
 Please visit each of the following deep learning folders to see the educational materials for each deep learning lab.
 
