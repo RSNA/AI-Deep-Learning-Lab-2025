@@ -1,4 +1,4 @@
-# Deep Learning Lab: Multi-agent AI frameworks
+# Deep Learning Lab: An Introduction to Multi-agent Artificial Intelligence Systems in Radiology
 
 - Moderator: Pouria Rouzrokh MD MPH MHPE
 - Speaker: Moein Shariatnia MD
