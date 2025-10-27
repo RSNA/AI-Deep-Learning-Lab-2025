@@ -1,7 +1,7 @@
 # Deep Learning Lab: Leveraging pre-trained embeddings models for your use cases and your data
 
 - Moderator: Rory Pilgrim Beng
-- Speaker: Daniel Golden PhD
+- Speaker: Timo Kohlberger
 - Speaker: Jason Klotzer
 
 **Overview**

@@ -1,7 +1,7 @@
 # Deep Learning Lab: Data Extraction from Radiology Reports with LLMs
 
 - Moderator: Walter Wiggins MD PhD
-- Speaker: Kirti Magudia MD PhD
+- Speaker: Mindy L. Yang, MD
 
 **Overview**
 
