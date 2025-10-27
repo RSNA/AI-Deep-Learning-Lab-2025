@@ -4,7 +4,7 @@ Welcome to Deep Learning Labs of RSNA or Radiologic Society of North America 202
 
 ## Workshop Schedule (Dates, Times, and Faculty)
 
-> Note: The dates and times below may be subject to change. For the most up-to-date schedule of the event, please visit the [RSNA website](https://www.rsna.org).
+> Note: The dates and times below may be subject to change. For the most up-to-date schedule of the event, please visit the [RSNA 2025 Annual Meeting Schedule](https://cattendee.abstractsonline.com/meeting/21232/pages/sessionsview?view=appendToCards&initialSearchId=231&searchId=14762).
 
 | Date         | Time     | Session                                                                                          | Moderator                   | Speakers                                              |
 | ------------ | -------- | ------------------------------------------------------------------------------------------------ | --------------------------- | ----------------------------------------------------- |
@@ -21,9 +21,9 @@ Workshop materials are available.
 
 ---
 
-## Deep Learning Folders
+## Deep Learning Labs' Educational Materials
 
-Please visit each of the following deep learning folders to see workshop materials or Deep Learning Lab materials.
+Please visit each of the following deep learning folders to see the educational materials for each deep learning lab.
 
 - [DL Lab: Basics of Natural Language Processing in Radiology](./DL%20Lab:%20Basics%20of%20Natural%20Language%20Processing%20in%20Radiology/)
 - [DL Lab: ChatCTP - DICOM de-identification using ChatGPT](./DL%20Lab:%20ChatCTP%20-%20DICOM%20de-identification%20using%20ChatGPT/)
