@@ -6,8 +6,8 @@ import uuid
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from agents.networking_agent.agent import root_agent
-from agents.networking_agent.sub_agents.formatter_agent import NetworkingProfile
+from scripts.agents.part5.networking_agent.agent import root_agent
+from scripts.agents.part5.networking_agent.sub_agents.formatter_agent import NetworkingProfile
 from google.adk import Runner
 from google.adk.sessions import InMemorySessionService
 from google.adk.runners import types
@@ -220,7 +220,7 @@ def save_markdown_file(markdown_content: str, person_name: str, output_dir: Path
     """
     if output_dir is None:
         # Save in the networking_agent directory
-        output_dir = Path(__file__).parent / "agents" / "networking_agent"
+        output_dir = Path(__file__).parent / "agents" / "part5" / "networking_agent"
     
     # Sanitize person name for filename
     safe_name = "".join(c if c.isalnum() or c in (' ', '-', '_') else '' for c in person_name)
