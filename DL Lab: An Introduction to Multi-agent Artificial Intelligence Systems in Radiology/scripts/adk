@@ -1,4 +1,0 @@
-#!/bin/sh
-# Wrapper script for adk that works around PATH issues with colons in directory names
-exec "$(dirname "$0")/venv/bin/adk" "$@"
-
