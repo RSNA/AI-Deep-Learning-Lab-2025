@@ -4,9 +4,10 @@ This module contains custom function tools that can be used by the agent.
 """
 
 from pathlib import Path
+from typing import Optional
 
 
-def write_biography_markdown(biography_content: str, person_name: str, filename: str = None) -> str:
+def write_biography_markdown(biography_content: str, person_name: str, filename: Optional[str]) -> str:
     """Write a biography to a markdown file.
     
     This function takes biography content and saves it to a markdown file.
@@ -15,7 +16,7 @@ def write_biography_markdown(biography_content: str, person_name: str, filename:
     Args:
         biography_content: The biography content in markdown format.
         person_name: The name of the person the biography is about.
-        filename: Optional custom filename. If not provided, uses person_name_biography.md
+        filename: Custom filename (can be None). If None, uses person_name_biography.md
     
     Returns:
         A string message indicating success and the file path where the markdown was saved.
