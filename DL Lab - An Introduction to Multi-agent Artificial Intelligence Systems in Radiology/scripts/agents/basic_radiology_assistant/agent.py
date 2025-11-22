@@ -1,11 +1,10 @@
-"""Radiology Assistant Agent - Part A
+"""Basic Radiology Assistant Agent - Part A
 
 A single agent that answers questions about radiology and avoids answering
 miscellaneous questions. No tools, no subagents.
 """
 
 import os
-from pathlib import Path
 from dotenv import load_dotenv
 from google.adk.agents import Agent
 
@@ -20,9 +19,9 @@ if not api_key:
         "Please set GOOGLE_API_KEY or GOOGLE_GENAI_API_KEY in your .env file"
     )
 
-# Define the radiology assistant agent
+# Define the basic radiology assistant agent
 root_agent = Agent(
-    name="radiology_assistant",
+    name="basic_radiology_assistant",
     model="gemini-2.5-flash",  # Using Gemini Flash model
     instruction=(
         "You are a helpful assistant specialized in radiology. "
@@ -37,8 +36,8 @@ root_agent = Agent(
         "radiology-related questions."
     ),
     description=(
-        "A specialized assistant that answers questions about radiology and "
-        "avoids answering miscellaneous questions."
+        "A basic specialized assistant that answers questions about radiology and "
+        "avoids answering miscellaneous questions. No web search capabilities."
     ),
     tools=[],  # No tools - just a simple conversational agent
 )
