@@ -42,7 +42,10 @@ writing_agent = LlmAgent(
         "   - Includes proper headings and structure\n"
         "   - Cites sources when available\n\n"
         "5. Use the write_biography_markdown function to save the biography to a markdown file.\n"
-        "   Pass the markdown content and the person's name to the function.\n\n"
+        "   Call: write_biography_markdown(biography_content, person_name, None)\n"
+        "   - biography_content: The markdown biography text\n"
+        "   - person_name: The person's name\n"
+        "   - filename: Pass None to use automatic filename (person_name_biography.md)\n\n"
         
         "Example markdown structure:\n"
         "```markdown\n"
@@ -66,7 +69,7 @@ writing_agent = LlmAgent(
         "- Use proper markdown formatting (headings, paragraphs, lists)\n"
         "- Ensure all information is factual and accurate\n"
         "- Be respectful and professional\n"
-        "- Include the person's name when calling write_biography_markdown\n"
+        "- Always call write_biography_markdown with three parameters: biography_content, person_name, and None (for filename)\n"
         "- Inform the user of the file location after creation"
     ),
     description=(

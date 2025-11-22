@@ -12,7 +12,8 @@ semantic_scholar_agent = LlmAgent(
         
         "When given a person's name and background information (from the verification agent):\n"
         "1. Use the `get_semantic_scholar_papers` tool with the person's full name:\n"
-        "   - Call: get_semantic_scholar_papers(\"[person name]\", recent_limit=10, most_cited_limit=10)\n"
+        "   - Call: get_semantic_scholar_papers(\"[person name]\", 10, 10)\n"
+        "   - Parameters: author_name (required), recent_limit (required, typically 10), most_cited_limit (required, typically 10)\n"
         "   - This searches Semantic Scholar's database for papers by the author\n"
         "   - It returns TWO lists:\n"
         "     * Most Recent Papers (up to 10 most recent publications)\n"

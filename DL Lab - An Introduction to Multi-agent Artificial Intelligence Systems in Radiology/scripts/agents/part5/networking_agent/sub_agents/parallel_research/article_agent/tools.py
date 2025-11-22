@@ -78,7 +78,7 @@ def _fetch_papers_from_semantic_scholar(author_name: str, limit: int = 100) -> l
         raise Exception(f"Error searching Semantic Scholar: {str(e)}")
 
 
-def get_semantic_scholar_papers(author_name: str, recent_limit: int = 10, most_cited_limit: int = 10) -> str:
+def get_semantic_scholar_papers(author_name: str, recent_limit: int, most_cited_limit: int) -> str:
     """Get both recent and most cited papers from Semantic Scholar for an author.
     
     This function searches Semantic Scholar's database for papers authored by the given person
@@ -86,8 +86,8 @@ def get_semantic_scholar_papers(author_name: str, recent_limit: int = 10, most_c
     
     Args:
         author_name: The full name of the author to search for (e.g., "John Smith" or "Smith, John")
-        recent_limit: Maximum number of recent papers to return (default: 10)
-        most_cited_limit: Maximum number of most cited papers to return (default: 10)
+        recent_limit: Maximum number of recent papers to return (typically 10)
+        most_cited_limit: Maximum number of most cited papers to return (typically 10)
     
     Returns:
         A formatted string containing two sections:
@@ -99,7 +99,7 @@ def get_semantic_scholar_papers(author_name: str, recent_limit: int = 10, most_c
         Returns an error message if there's an error accessing the API.
     
     Example:
-        get_semantic_scholar_papers("Pouria Rouzrokh", recent_limit=10, most_cited_limit=10)
+        get_semantic_scholar_papers("Pouria Rouzrokh", 10, 10)
     """
     try:
         # Fetch all papers (we'll need enough to get both recent and most cited)

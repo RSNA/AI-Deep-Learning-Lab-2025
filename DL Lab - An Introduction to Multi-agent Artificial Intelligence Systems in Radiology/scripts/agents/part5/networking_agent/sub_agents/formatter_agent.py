@@ -39,6 +39,8 @@ formatter_agent = LlmAgent(
     name="profile_formatter_agent",
     model="gemini-2.5-flash",
     output_schema=NetworkingProfile,
+    disallow_transfer_to_parent=True,
+    disallow_transfer_to_peers=True,
     instruction=(
         "You are a profile formatting agent. Your role is to compile all gathered information "
         "into a structured networking profile.\n\n"
