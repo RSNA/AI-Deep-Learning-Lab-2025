@@ -1,2 +1,2 @@
-# Part 5: Advanced Tools and Complex Multi-Agent Systems
+# Part 5: Complex Multi-Agent Systems (Networking Agent)
 
