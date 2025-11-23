@@ -1,4 +1,4 @@
-# Deep Learning Lab: ChatCTP - DICOM de-identification using ChatGPT
+# Deep Learning Lab: ChatGTP - DICOM de-identification using ChatGPT
 
 - Moderator: George Lee Shih MD MS
 - Speaker: Adam Eugene Flanders MD
