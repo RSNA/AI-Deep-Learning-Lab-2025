@@ -24,7 +24,7 @@ Welcome to Deep Learning Labs of RSNA or Radiologic Society of North America 202
 Please visit each of the following deep learning folders to see the educational materials for each deep learning lab.
 
 - [DL Lab: Basics of Natural Language Processing in Radiology](./DL%20Lab%20-%20Basics%20of%20Natural%20Language%20Processing%20in%20Radiology/)
-- [DL Lab: ChatCTP - DICOM de-identification using ChatGPT](./DL%20Lab%20-%20ChatCTP%20-%20DICOM%20de-identification%20using%20ChatGPT/)
+- [DL Lab: ChatCTP - DICOM de-identification using ChatGPT](https://github.com/georgezero/rsna25-deid-using-chatgpt-llms)
 - [DL Lab: Data Extraction from Radiology Reports with LLMs](./DL%20Lab%20-%20Data%20Extraction%20from%20Radiology%20Reports%20with%20LLMs/)
 - [DL Lab: Quantifying Uncertainty in Deep Learning](./DL%20Lab%20-%20Quantifying%20Uncertainty%20in%20Deep%20Learning/)
 - [DL Lab: Leveraging pre-trained embeddings models for your use cases and your data](./DL%20Lab%20-%20Leveraging%20pre-trained%20embeddings%20models%20for%20your%20use%20cases%20and%20your%20data/)
