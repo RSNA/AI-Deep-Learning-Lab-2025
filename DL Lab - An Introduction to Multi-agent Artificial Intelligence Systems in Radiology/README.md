@@ -10,30 +10,11 @@ In this hands-on workshop, we will explore the concept of multi-agent AI framewo
 
 ## What's Included
 
-This repository contains educational materials and code examples for building multi-agent AI systems using Google's Agent Development Kit (ADK). The main educational resource is the Jupyter notebook located in `./Introduction_to_Multi_Agent_AI_Systems.ipynb`, which provides:
+This repository contains educational materials and code examples for building multi-agent AI systems using Google's Agent Development Kit (ADK). The main educational resource is the Jupyter notebook located in `./RSNA2025_DLL_AgentiAI.ipynb`, which provides:
 
 - Introduction to basic agents (LLM-only)
 - Augmenting agents with tools (Google Search, native tools)
-- Understanding ADK limitations and multi-agent solutions
+- Understanding Google ADK limitations and multi-agent solutions
 - Multi-agent pipelines (Sequential, Parallel, Loop)
-- Advanced tools integration (MCP servers)
 - Custom runners and session management
 - Practical examples with radiology applications
-
-## Next Steps: Advanced Multi-Agent System
-
-After reviewing this notebook, we highly recommend exploring our more sophisticated multi-agent AI pipeline implementation:
-
-- **Project Website**: [www.rsna2025-agenticai.com](https://www.rsna2025-agenticai.com)
-- **GitHub Repository**: [https://github.com/PouriaRouzrokh/RSNA2025_DLL_AgenticAI](https://github.com/PouriaRouzrokh/RSNA2025_DLL_AgenticAI)
-
-This repository demonstrates a complete production-ready multi-agent system for radiology reporting, featuring:
-
-- A full-stack application with Next.js frontend and FastAPI backend
-- Integrated CT scan viewer with NIfTI file support
-- Voice transcription and AI-powered report generation workflow
-- Complex multi-agent architecture with specialized agents (Orchestrator, Researcher, Synthesizer, Formatter)
-- Sub-agents for EHR data, prior reports, and guidelines
-- Real-world radiology workstation interface
-
-This advanced example showcases how the concepts learned in this workshop can be applied to build sophisticated, production-ready multi-agent systems in healthcare.
